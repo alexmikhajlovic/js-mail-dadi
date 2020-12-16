@@ -1,6 +1,6 @@
 // View Username
 var username = prompt('USERNAME:');
-document.getElementById('user-name').innerHTML = username;
+document.getElementById('user-name').innerHTML = username.charAt(0).toUpperCase() + username.slice(1).toLowerCase();
 
 // When user click Go Button
 var element = document.getElementById("go-btn");
