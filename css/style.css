@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Avatars */
+img{ max-width: 70%; }
+
+/* Gamers score */
+.score {font-size: 35px;}
+
+/* Row that says who won */
+.row.winner {font-size: 50px;}
+
+
+
+/* Button */
+.my_btn {
+    margin-top: 200px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.my_btn:hover,
+.my_btn:active,
+.my_btn:focus {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+/* Margin class */
+.margin-t-50 {margin-top: 50px;}

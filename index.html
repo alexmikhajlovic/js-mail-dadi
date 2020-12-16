@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Throwing the dice 1 vs 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="icon" href="https://cdn.iconscout.com/icon/free/png-256/dice-2363380-1974829.png" sizes="16x16 24x24 32x32 48x48 64x64 128x128">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- User zone -->
+            <div class="col-xs-5">
+              <h2>User: <span id="user-name"></span> </h2>
+              <img src="img/avatar.jpg" alt="User Avatar">
+
+              <div id="user-move" class="score"></div>
+            </div>
+
+            <div class="col-xs-2">
+              <h4 class="text-uppercse vs margin-t-50">VS</h4>
+              <div id="go-btn" class="my_btn text-uppercase">GO</div>
+            </div>
+
+            <!-- CPU zone -->
+            <div class="col-xs-5">
+              <h2>CPU</h2>
+              <img src="img/fsociety.jpg" alt="CPU Avatar">
+
+              <div id="cpu-move" class="score"></div>
+            </div>
+
+        </div>
+
+        <!-- *** Winner *** -->
+        <div class="row winner">
+            <div id="winner" class="col-xs-12 margin-t-50"></div>
+        </div>
+
+
+
+    </div>
+
+       
+      
+
+  <script src="js/script.js"></script>  
+</body>
+</html>
